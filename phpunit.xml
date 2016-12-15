@@ -4,6 +4,12 @@
     bootstrap="test/bootstrap.php"
     backupGlobals="false"
 >
+    <testsuites>
+        <testsuite name="default">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src</directory>
