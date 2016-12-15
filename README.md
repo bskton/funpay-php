@@ -8,7 +8,7 @@ cd ./funpay-php
 composer install
 phpunit
 ```
-## Требвоания
+## Требования
  * PHP 7.0.8
  * Composer 1.2.0
  * PHPUnit 5.5.4
