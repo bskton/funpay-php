@@ -1,0 +1,15 @@
+{
+    "name": "ilya/funpay-php",
+    "authors": [
+        {
+            "name": "Ilya Levin",
+            "email": "bskton@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Funpay\\": "src/"
+        }
+    },
+    "require": {}
+}
